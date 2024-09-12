@@ -1,0 +1,79 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #d2d2d7;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #0071e3;
+}
+
+button {
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0077ed;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.exit-button {
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.exit-button:hover {
+  background-color: #ff453a;
+}
+
+.goodbye-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1d1d1f;
+  text-align: center;
+  margin-top: 50px;
+}
